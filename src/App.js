@@ -1,14 +1,17 @@
 import React from 'react'
-import Counter from './Counter/counter'
+import Stopwatch from './Stopwatch/Stopwatch'
+import './Stopwatch/Stopwatch.css'
 
 
 
 
 const App = () => {
+
+
   return (
     <div>
-      <Counter/>
-      </div>
+         <Stopwatch/>
+    </div>
   )
 }
 

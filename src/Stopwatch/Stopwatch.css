@@ -1,0 +1,49 @@
+.Main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+}
+.working-container{
+    width: 600px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2e2626;
+    box-shadow: -1px 1px 10px 5px white
+}
+.Top-heading{
+    color: #9370DB;
+    font-size: 50px;
+}
+.Count{
+    color: #FF00FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+.btn{
+    background-color: #483D8B;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #9370DB;
+    transition: 0.4s all ease-out;
+}
+.Reset-btn{
+    color: red;
+}
+
+
+
+
