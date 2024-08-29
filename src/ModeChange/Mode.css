@@ -1,0 +1,28 @@
+button{
+    background-color: aqua;
+    color: black;
+    font-size: 26px;
+    padding: 5px;
+    border-radius: 7px;
+  }
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+  p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .darkmode{
+    background-color: black;
+    color: white;
+  }
+  
+  .lightmode{
+    background-color: white;
+    color: black;
+  } 

@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Top-Heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .Top-Heading img{
+     width: 280px;
+     height: 90px;
+ }
+
+
+/* FormBox Heading */
+ .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main-container{
+    background-color: white;
+    width: 490px;
+    height: 670px;
+    border-radius: 7px;
+    box-shadow:-1px -1px 8px gray;
+    text-align: center;
+    
+}
+.main-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 9px;
+}
+.main-top h2{
+    margin: 10px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-top p{
+    color: #afafb2;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.border{
+   margin-top: 20px;
+   border: 1px solid #d1d1d3;
+}
+
+
+/* React Hook from Design */
+
+.main-form{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.inputfield{
+    border: 1px solid #d1d1d3;
+    height: 40px;
+    border-radius: 6px;
+    padding: 5px;
+    display: inline-block;
+    width: 97%;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.inputfield::placeholder{
+    color: #919192;
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+/* #name{
+    margin-right:10px ;
+} */
+/* #name,#sname{
+    width: 46%;
+} */
+
+
+/* Read only lines */
+.form-line-cont{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.form-line-cont p{
+    color: #919192;
+    font-size: 15px;
+}
+.form-line-cont img{
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    filter:opacity(0.5);
+    margin-top: 3px;
+}
+
+
+
+.DOB-boxes{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+#date,#month,#year{
+    width: 32%;
+    margin-right: 8px;
+}
+
+
+.g-box{
+    border: 1px solid #d1d1d3;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+    
+}
+.g-box label{
+    margin-right: 69px;
+    font-size: 15px;
+    
+}
+
+
+.read-text{
+    margin-left: 6px;
+    text-align: left;
+}
+.read-text p{
+    font-size: 11px;
+    font-family: Helvetica;
+    color:#919192;
+    
+}
+.read-text p a{
+    color: #385898;
+    text-decoration: none;
+}
+.read-text p a:hover{
+   text-decoration: underline;
+}
+#policy-pra-2{
+    margin-top: 10px;
+}
+
+
+#btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#btn{
+    background-color: #00a400;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    width: 200px;
+    height: 40px;
+}
+#btn:hover{
+    filter: opacity(0.8);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.footer h4{
+    color: #0866ff;
+    font-weight: 500;
+}
+
+.Half-inputbox{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 50%;
+    height: 66px;
+    margin-right: 10px;
+}
+.Half-inputbox span , .Full-inputfield span{
+    font-size: 10px;
+    color: red;
+    text-align: left;
+   margin-bottom: 2px;
+   margin-left: 3px;
+}
+.name-sname-box{
+    display: flex;
+    flex-direction: row;
+}
+.Full-inputfield{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    height: 66px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+
+    .Top-Heading img{
+        width: 260px;
+        height: 70px;
+    }
+    .main-container {
+        width: 92%; 
+        max-width: 350px;
+        height: 650px;
+    }
+    .main-top h2{
+        font-size: 22px;
+    }
+    .main-top p{
+        font-size: 15px;
+    }
+    .inputfield {
+        font-size: 12px; 
+        width: 95%;
+    }
+
+    .g-box label {
+        font-size: 13px;
+    }
+    .read-text p {
+        font-size: 10px;
+    }
+    #date,#month,#year{
+        width: 33%;
+        margin-right: 3px;
+    }
+    .g-box label{
+        margin-right: 26px;
+    }
+    .g-box{
+        margin-right: 4px;
+        padding: 5px;
+    }
+    .form-line-cont {
+        flex-direction: row; 
+    }
+    .form-line-cont p{
+        font-size: 14px;
+    }
+    .main-top {
+        flex-direction: column; 
+    }
+    .main-top {
+        gap: 5px; 
+    }
+
+    #btn {
+        width: 180px;
+        height: 38px;
+    
+    }
+    .read-text p{
+        font-size: 7px;
+    }
+    
+        .footer h4 {
+            font-size: 14px;    
+        }
+}
