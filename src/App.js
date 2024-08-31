@@ -1,6 +1,5 @@
 import React from 'react'
-import Stopwatch from './Stopwatch/Stopwatch'
-import './Stopwatch/Stopwatch.css'
+import FetchApi from './API/FetchApi'
 
 
 
@@ -8,11 +7,16 @@ import './Stopwatch/Stopwatch.css'
 const App = () => {
 
 
+
+
   return (
     <div>
-         <Stopwatch/>
+         <FetchApi/>
     </div>
   )
 }
 
 export default App
+
+
+

@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react'
+
 import './Stopwatch.css'
 
 const Stopwatch = () => {
@@ -20,6 +21,10 @@ const Stopwatch = () => {
     //     alert('You off the Stopwatch')
     //   }
     // }, [])
+
+
+
+    
     
 
 
@@ -37,6 +42,8 @@ const Stopwatch = () => {
     
     }, [count,checked])
 
+
+    
 
 
     //This arrow function is used to reset the time of the stopwatch
