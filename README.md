@@ -11,6 +11,8 @@
 ##### 4-Stopwatch
 *For Understanding of UseEffect Hook*
 ##### 5-User Card(API)
-*For Understanding of API Fetching in React and Props*
+*For Understanding of API Fetching in React and Props passing*
+##### 6-Add,Minus Counter
+*For Understanding of UseMemo and Memo*
 
 
