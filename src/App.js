@@ -1,17 +1,18 @@
-import React from 'react'
-import FetchApi from './API/FetchApi'
+import React,{useState} from 'react'
+import Practice from './Practice/useeffect'
 
 
 
 
 const App = () => {
 
-
+  const [check, setcheck] = useState(true)
 
 
   return (
     <div>
-         <FetchApi/>
+      <button onClick={()=> {setcheck(!check)}}>Click</button>
+        {check===true?<Practice/>: ""} 
     </div>
   )
 }

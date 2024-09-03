@@ -1,9 +1,14 @@
 button{
-  background-color: aqua;
+  background-color: rgb(166, 255, 0);
   color: black;
   font-size: 26px;
   padding: 5px;
   border-radius: 7px;
+}
+button:hover{
+  background-color: black;
+  color: antiquewhite;
+  cursor: pointer;
 }
 div{
   display: flex;
@@ -26,3 +31,11 @@ p{
   background-color: white;
   color: black;
 } 
+
+
+.cont-div{
+  width: 300px;
+  height: 120px;
+  background-color: aquamarine;
+  margin: auto;
+}
