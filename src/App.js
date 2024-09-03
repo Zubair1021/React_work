@@ -1,23 +1,14 @@
-import React,{useState} from 'react'
-import Practice from './Practice/useeffect'
-
-
-
+import React from "react";
+import Counter from "./Practice/Usememo/Counter";
+import './Practice/Usememo/Style.css'
 
 const App = () => {
 
-  const [check, setcheck] = useState(true)
-
-
   return (
     <div>
-      <button onClick={()=> {setcheck(!check)}}>Click</button>
-        {check===true?<Practice/>: ""} 
+      <Counter />
     </div>
-  )
-}
+  );
+};
 
-export default App
-
-
-
+export default App;
