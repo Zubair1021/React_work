@@ -1,6 +1,5 @@
 import React from "react";
-import Counter from "./Practice/Usememo/Counter";
-import './Practice/Usememo/Style.css'
+import Counter from './Practice/UseReducer/Counter'
 
 const App = () => {
 
