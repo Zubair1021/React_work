@@ -14,5 +14,7 @@
 *For Understanding of API Fetching in React and Props passing*
 ##### 6-Add,Minus Counter
 *For Understanding of UseMemo and Memo*
+##### 7-Inc/Dec Counter
+*For Understanding of UseReducer*
 
 
