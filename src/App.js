@@ -1,11 +1,11 @@
 import React from "react";
-import Counter from './Practice/UseReducer/Counter'
+import LoginForm from './LoginFormTest/MainForm'
 
 const App = () => {
 
   return (
     <div>
-      <Counter />
+      <LoginForm />
     </div>
   );
 };

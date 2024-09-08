@@ -1,4 +1,4 @@
-// UseReducer is just Behave like a UseState Hook but we use it at big projects.
+// UseReducer is just Behave like a UseState Hook but we use it in big projects.
 import { useReducer } from 'react'
 import React from 'react'
 import '../UseReducer/Style.css'
